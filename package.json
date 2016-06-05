@@ -1,0 +1,22 @@
+{
+  "name": "ampersand-input-number-step-view",
+  "version": "1.0.0",
+  "description": "Ampersand input view for numbers with + and - buttons",
+  "main": "ampersand-input-number-step-view.js",
+  "author": "Christoffer Lindahl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kekos/ampersand-input-number-step-view/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Kekos/ampersand-input-number-step-view.git"
+  },
+  "dependencies": {
+    "ampersand-input-view": "^7.0.0"
+  },
+  "devDependencies": {
+    "ampersand-form-view": "^6.0.0",
+    "domready": "^1.0.8"
+  }
+}

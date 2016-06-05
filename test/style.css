@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 100%;
+}
+
+p {
+  margin: 10px;
+}
+
+.dialog {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 400px;
+  height: 100px;
+  background: #fff;
+  box-shadow: 0 0 15px #000;
+  border: 1px solid red;
+  border-radius: 3px;
+}
+
+.dialog h2 {
+  padding: 10px;
+  background: red;
+  font-size: 1em;
+}
+
+.moving-elm {
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  width: 300px;
+  background: cyan;
+}
+
+[data-hook=start-move] {
+  cursor: move;
+  -webkit-user-drag: element;
+}
